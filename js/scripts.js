@@ -19,8 +19,7 @@ function check() {
     correct+=20;
   }
 
-  var messages = [
-  var pictures = [
+  var messages = ["EXCELLENT!","BEST!", "BETTER!", "GOOD!","MORE EFFORT NEEDED!"];
 
   var range;
   if (correct < 20){
@@ -44,5 +43,4 @@ function check() {
 
   document.getElementById("message").innerHTML = messages[range];
   document.getElementById("number_correct").innerHTML = "Your score is " + correct + "!";
-  document.getElementById("picture").src = pictures[range]
 }
