@@ -25,22 +25,33 @@
 <input type = "radio" id = "mc" name = "question2" value = "Java"> Java<br>
 <input type = "radio" id = "mc" name = "question2" value = "Js"> Js<br>
 
-<p>What is the full name of HTML?</p>
-<input id = "textbook" type = "text" name = "question3">
+<p>2.A programmer is to a computer as a teacher is to:</p>
+    <input type="radio" id="mc" name="question2" value="A desk">A desk<br>
+    <input type="radio" id="mc" name="question2" value="A student">A student<br>
+    <input type="radio" id="mc" name="question2" value="A library">A library<br>
+
+    <p>3.Imagine a car as a computer, and its engine as a program.
+       Which of the following is an input for the engine program?</p>
+       <input type="radio" id="mc" name="question3" value="The gas pedal">The gas pedal<br>
+       <input type="radio" id="mc" name="question3" value="The driver's seat">The driver's seat<br>
+       <input type="radio" id="mc" name="question3" value="The steering wheel">The steering wheel<br>
+
+       <p>4.A good algorithm must be:</p>
+       <input type="radio" id="mc" name="question4" value="Detailed">Detailed<br>
+       <input type="radio" id="mc" name="question4" value="Replaceable">Replaceable<br>
+       <input type="radio" id="mc" name="question4" value="Simple">Simple<br>
 
 
-<input id = "button" type = "button" value = "Done" onclick = "check();">
+       <input id="button" type="button" value="Submit" onclick="check()">
+  </form>
 
+  <div id="after_submit">
 
-</form>
-
-<div id = "after_submit">
-<p id = "number correct"></p>
-<img id = "picture">
-
-</div>
-</html>
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img id = "picture">
+  </div>
+    <script src="js/scripts.js"></script>
 
 </body>
-
 </html>
