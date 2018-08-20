@@ -9,18 +9,18 @@ function check() {
   if (question1 == "ECMAscript"){
     correct+=20;
   }
-  if (question2 == "A student"){
+  if (question2 == "Behavior Driven Development"){
     correct+=20;
   }
-  if (question3 == "The gas pedal"){
+  if (question3 == "slideAway()"){
     correct+=20;
   }
-  if (question4 == "Detailed"){
+  if (question4 == "HTML"){
     correct+=20;
   }
 
-  var messages = ["EXCELLENT!","BEST!", "BETTER!", "GOOD!","MORE EFFORT NEEDED!"];
-  var pictures = ["img/excellent.gif", "img/best.gif", "img/better.gif", "img/good.gif", "img/moreEffort.gif"];
+  var messages = [
+  var pictures = [
 
   var range;
   if (correct < 20){
