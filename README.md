@@ -3,17 +3,8 @@ Javascript quiz.
 -{Jessyndavi}(https://github.com/jessyndavi/QUIZ-BOARD.git)
 ###About This Project;
 This project is of an application that is asking Javascript Questions. 
-## Setup/Installation Requirements
-* Make sure your computer has an editor you can use atom.
-* Make sure your browser is Javascript enabled.Having the chrome. 
-* You can use githubs gh-pages to view your website on your desktop.
-* It made using Simple Javascript functionality, HTML and CSS therefore easily understandable.
  View on [Github](http://jessyndavi.github.io/QUIZ-BOARD).
- ## Programms Used
-* Javascript
-* HTML
-* CSS
-* Atom
+ 
 ### License
 *MIT License
 
